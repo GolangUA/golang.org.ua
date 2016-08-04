@@ -2,6 +2,7 @@ baseurl = "http://golang.org.ua/"
 languageCode = "en-us"
 title = "GolangUA"
 paginate = 5
+theme = "hyde"
 [params]
   description = "Ukrainian Golang User Group"
   hideHUGOSupport = false
