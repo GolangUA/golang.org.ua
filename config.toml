@@ -1,0 +1,9 @@
+baseurl = "http://golang.org.ua/"
+languageCode = "en-us"
+title = "GolangUA"
+paginate = 5
+[params]
+  description = "Ukrainian Golang User Group"
+  hideHUGOSupport = false
+  themeColor = "theme-base-0c"
+  disqusShortname = "golangua"
