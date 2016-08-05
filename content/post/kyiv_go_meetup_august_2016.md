@@ -9,4 +9,7 @@ author = "yanzay"
 
 Рады пригласить вас на очередной ежемесячный Kyiv Go Meetup, который состоится 17 августа в офисе компании Cogniance (пер. Охтырский 7) в 19:30.
 
+Agenda:
+- Why Go: Async IO for Free (Bohdan Trotsenko)
+
 До встречи!
