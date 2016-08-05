@@ -8,3 +8,7 @@ theme = "hyde"
   hideHUGOSupport = false
   themeColor = "theme-base-0c"
   disqusShortname = "golangua"
+  facebookURL = "https://www.facebook.com/groups/GolangUA/"
+  githubURL = "https://github.com/GolangUA"
+  youtubeURL = "https://www.youtube.com/channel/UCpBO9AEA0kb7agq7dxT0dsA"
+  twitterURL = "https://twitter.com/GolangUA"

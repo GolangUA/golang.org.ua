@@ -8,6 +8,10 @@
     </div>
 
     <ul class="sidebar-nav">
+      {{ with .Site.Params.githubURL }}<a href="{{ . }}"><i class="fa fa-github-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.youtubeURL }}<a href="{{ . }}"><i class="fa fa-youtube-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.facebookURL }}<a href="{{ . }}"><i class="fa fa-facebook-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.twitterURL }}<a href="{{ . }}"><i class="fa fa-twitter-square fa-3x"></i></a>{{ end }}
       <li><a href="/">Home</a> </li>
       {{ range .Site.Menus.main }}
         <li><a href="{{.URL}}"> {{ .Name }} </a></li>
