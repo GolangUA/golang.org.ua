@@ -4,4 +4,4 @@ title = "Photos from Kyiv Go Meetup July 2016"
 author = "yanzay"
 +++
 
-<iframe width="640" height="480" src="https://www.flickr.com/photos/143663662@N06/albums/72157672029992105/player/" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe src="http://albumizr.com/a/k8Y" scrolling="no" frameborder="0" allowfullscreen width="700" height="400"></iframe>
