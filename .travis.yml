@@ -1,4 +1,3 @@
-language: go
 before_install:
   - openssl aes-256-cbc -K $encrypted_1de247f590f9_key -iv $encrypted_1de247f590f9_iv
     -in deploy_rsa.enc -out deploy_rsa -d
