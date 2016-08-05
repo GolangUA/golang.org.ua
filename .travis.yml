@@ -5,10 +5,9 @@ before_install:
 install: go get -v github.com/spf13/hugo
 addons:
   ssh_known_hosts: 188.166.95.113
-before_deploy:
+script:
+  - hugo
   - eval "$(ssh-agent -s)"
   - chmod 600 $TRAVIS_BUILD_DIR/deploy_rsa
   - ssh-add $TRAVIS_BUILD_DIR/deploy_rsa
-script:
-  - hugo
   - rsync -r ./public core@188.166.95.113:~/www/
