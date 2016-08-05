@@ -1,4 +1,4 @@
-baseurl = "http://golang.org.ua/"
+baseurl = "https://golang.org.ua/"
 languageCode = "en-us"
 title = "GolangUA"
 paginate = 5
