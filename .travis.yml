@@ -2,11 +2,11 @@ language: go
 before_install:
   - openssl aes-256-cbc -K $encrypted_1de247f590f9_key -iv $encrypted_1de247f590f9_iv
     -in deploy_rsa.enc -out deploy_rsa -d
-install: GOGC=off go get -v github.com/spf13/hugo
 addons:
   ssh_known_hosts: 188.166.95.113
 script:
-  - hugo
+  - curl -L https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux-32bit.tgz | tar -xz
+  - ./hugo
   - eval "$(ssh-agent -s)"
   - chmod 600 $TRAVIS_BUILD_DIR/deploy_rsa
   - ssh-add $TRAVIS_BUILD_DIR/deploy_rsa
