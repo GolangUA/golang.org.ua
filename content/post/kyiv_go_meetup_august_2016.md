@@ -5,12 +5,12 @@ title = "Kyiv Go Meetup August 2016"
 author = "yanzay"
 +++
 
-Привет, друзья!
+Hi, gophers!
 
-Рады пригласить вас на очередной ежемесячный Kyiv Go Meetup, который состоится 17 августа в офисе компании Cogniance (пер. Охтырский 7) в 19:30.
+We are happy to announce the next Kyiv Go Meetup in August 17th. It will take place in the Cogniance office (Kyiv, Okhtyrskyi lane 7) at 19:30.
 
 Agenda:
 
 - Why Go: Async IO for Free (Bohdan Trotsenko)
 
-До встречи!
+Looking forward to meet you!
