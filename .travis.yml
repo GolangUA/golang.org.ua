@@ -1,13 +1,14 @@
 before_install:
-  - openssl aes-256-cbc -K $encrypted_1de247f590f9_key -iv $encrypted_1de247f590f9_iv
-    -in deploy_rsa.enc -out deploy_rsa -d
+- openssl aes-256-cbc -K $encrypted_1de247f590f9_key -iv $encrypted_1de247f590f9_iv
+  -in deploy_rsa.enc -out deploy_rsa -d
 install:
-  - curl -L https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux-32bit.tgz | tar -xz
+- curl -L https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux-32bit.tgz
+  | tar -xz
 addons:
-  ssh_known_hosts: 188.166.95.113
+  ssh_known_hosts: 46.101.193.210
 script:
-  - "./hugo"
-  - eval "$(ssh-agent -s)"
-  - chmod 600 $TRAVIS_BUILD_DIR/deploy_rsa
-  - ssh-add $TRAVIS_BUILD_DIR/deploy_rsa
-  - rsync -r ./public/* core@188.166.95.113:~/www/golang.org.ua/
+- "./hugo"
+- eval "$(ssh-agent -s)"
+- chmod 600 $TRAVIS_BUILD_DIR/deploy_rsa
+- ssh-add $TRAVIS_BUILD_DIR/deploy_rsa
+- rsync -r ./public/* yanzay@46.101.193.210:~/www/golang.org.ua/
