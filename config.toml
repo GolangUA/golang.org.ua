@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "GolangUA"
 paginate = 5
 theme = "hyde"
+googleAnalytics = "UA-29109282-4"
 [params]
   description = "Ukrainian Golang User Group"
   hideHUGOSupport = false
