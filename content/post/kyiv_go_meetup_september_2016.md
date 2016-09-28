@@ -17,3 +17,5 @@ Agenda:
 Please register yourself and you friends here: http://www.meetup.com/uagolang/events/234119153/
 
 Looking forward to meet you!
+
+Watch us online: https://www.youtube.com/watch?v=If8ompI0faY
